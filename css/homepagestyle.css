@@ -1,0 +1,77 @@
+#wrapper{
+	max-width:90%;
+	margin: 0 auto;
+}
+html{
+	background-color: lightblue;
+}
+.floatc{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+ul{
+	list-style-type: none;
+}
+li{
+	display: inline;
+	border:5px white solid;
+	margin:10px;
+	padding: 10px 20px;
+}
+h1{
+	font-size: 60px;
+	text-align: center;
+	color:white;
+	font-family: 'Nerko One', cursive;
+}
+a{
+	font-size: 20px;
+	color:white;
+	font-family: 'Nerko One', cursive;
+	text-decoration-line: none;
+}
+h2{
+	color:white;
+	font-family: 'Nerko One', cursive;
+	border-bottom: white 3px solid;
+}
+p{
+	font-family: 'Nerko One', cursive;
+	color:white;
+	padding: 7px;
+}
+.bord{
+	border-right:white 3px solid;
+}
+.col1{
+	float:left;
+	width:34%;
+}
+.col2{
+	float:right;
+	width:63%;
+}
+.hei{
+	height:230px;
+	padding:7px;
+}
+img{
+	height:400px;
+	padding:20px;
+}
+.floatl{
+	float:left;
+}
+li:hover{
+	background-color:lightgrey;
+	font-size: 20px;
+}
+a:visited{
+	color:darkblue;
+}
+h3{
+	color:white;
+	font-family: 'Nerko One', cursive;
+}

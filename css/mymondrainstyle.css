@@ -1,0 +1,201 @@
+html{
+	background-color: #f6f6f6;
+}
+#painting {
+    background-color: #fff4db;
+    width: 400px;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#toprow{
+	height:110px;
+}
+.right{
+	float:right;
+}
+.black{
+	background-color: black;
+}
+.pink{
+	background-color: #F7D5FA;
+}
+.lightblue{
+	background-color: #BBFAEB;
+}
+.darkblue{
+	background-color: #8BADA5;
+}
+#box6{
+	height:110px;
+	width:55px;
+}
+#divider1{
+	height:110px;
+	width:10px;
+}
+#toprightcolumn{
+}
+#box4{
+	height:50px;
+	width:10px;
+}
+#divider2{
+	height:10px;
+	width:10px;
+}
+#box5{
+	height:50px;
+	width:10px;
+}
+#divider3{
+	height:110px;
+	width:10px;
+}
+#box3{
+	height:110px;
+	width:130px;
+}
+#divider4{
+	height:110px;
+	width:10px;
+}
+#divider5{
+	height:110px;
+	width:10px;
+}
+#box2{
+	height:110px;
+	width:65px;
+}
+#topleftcolumn{
+}
+#box1{
+	height:80px;
+	width:100px;
+}
+#divider6{
+	height:10px;
+	width:100px;
+}
+#box7-1{
+	height:20px;
+	width:100px;
+}
+#middlerow{
+	height:10px;
+}
+#divider7{
+	height:10px;
+	width:300px;
+}
+#divider8{
+	height:10px;
+	width:100px;
+}
+#lowmiddlerow{
+	height:160px;
+}
+#box11{
+	height:160px;
+	width:140px;
+}
+#divider9{
+	height: 160px;
+	width:10px;
+}
+#middlerightcolumn{
+}
+#box10{
+	height:40px;
+	width:90px;
+}
+#divider10{
+	height:10px;
+	width:90px;
+}
+#box12{
+	height:110px;
+	width:90px;
+}
+#divider11{
+	height:50px;
+	width:10px;
+}
+#middleleftcolumn{
+}
+#box8{
+	height:15px;
+	width:40px;
+}
+#divider12{
+	height:10px;
+	width:40px;
+}
+#box9{
+	height:15px;
+	width:40px;
+}
+#divider13{
+	height:10px;
+	width:40px;
+}
+#divider14{
+	height:160px;
+	width:10px;
+}
+#box7{
+	height:160px;
+	width:100px;
+}
+#topbottomrow{
+	height:10px;
+}
+#divider15{
+	height:10px;
+	width:400px;
+}
+#lowbottomrow{
+	height:110px;
+}
+#box16{
+	height:110px;
+	width:160px;
+}
+#divider16{
+	height:110px;
+	width:10px;
+}
+#lastcolumn{
+}
+#box14{
+	height:50px;
+	width:60px;
+}
+#divider17{
+	height:10px;
+	width:60px;
+}
+#box15{
+	height:50px;
+	width:60px;
+}
+#divider18{
+	height:110px;
+	width:10px;
+}
+#box13{
+	height:110px;
+	width:160px;
+}
+#box13-1{
+	height:110px;
+	width:40px;
+}
+#divider22{
+	height:110px;
+	width:10px;
+}
+#badcolumn{
+}

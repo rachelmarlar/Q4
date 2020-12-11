@@ -1,0 +1,144 @@
+*{
+	margin:0;
+	padding:0;
+}
+@import 
+url('https://fonts.googleapis.com/css2?family=Castoro&family=Nunito:wght@800&display=swap');
+
+#wrapper{
+	max-width: 90%;
+	margin: 0 auto;
+}
+body{
+	background-color:#0D2025;
+}
+a{
+	color:#7DAB9B;
+	text-decoration-line: none;
+	font-family: 'Nunito', sans-serif;
+}
+a:hover{
+	color:#E47855;
+}
+a:visited{
+	color:white;
+}
+.pic1{
+	height:75px;
+}
+.floatc{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+}
+ul{
+	list-style-type: none;
+}
+li{
+	padding:25px;
+}
+nav{
+	padding: 20px;
+}
+h4{
+	color:white;
+	font-family: 'Nunito', sans-serif;
+}
+.mybutton {
+   background-color: #E47855;
+   color:white;
+   font-family: 'Nunito', sans-serif;
+   font-size: 15px;
+   cursor: pointer;
+   border-radius: 10px;
+   padding:5px;
+}
+#footer{
+	text-align: center;
+	padding-top: 50px;
+}
+.foot{
+	color:#E47855;
+	font-family: 'Nunito', sans-serif;
+	font-size: 36px;
+}
+.cdog{
+	font-family: 'Castoro', serif;
+}
+h1{
+  font-size:58px;
+  color:#7DAB9B;
+  text-align:center;
+  padding-bottom: 20px;
+  font-family: 'Nunito', sans-serif;
+}
+p{
+	color:white;
+}
+.line{
+	border-bottom: 2px #E47855 solid;
+}
+#grid-container{
+  display:grid;
+  grid-template-rows:50px 1fr 50px 1fr;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas:
+  "gorilla gorilla"
+  "img1 p1" 
+  "ant ant" 
+  "img2  p2"
+  "bora bora"
+  "img3 p3";
+  grid-gap:1vw;
+}
+#gorilla{
+  grid-area:gorilla;
+  padding-top: 10px;
+}
+#img1{
+  grid-area:img1;
+}
+#p1{
+  grid-area:p1;
+}
+#ant{
+  grid-area:ant;
+  padding-top: 10px;
+}
+#img2{
+  grid-area:img2;
+}
+#p2{
+  grid-area:p2;
+}
+#bora{
+  grid-area:bora;
+  padding-top: 10px;
+}
+#img3{
+  grid-area:img3;
+}
+#p3{
+  grid-area:p3;
+}
+.weird{
+  height:100%;
+  overflow: hidden;
+  width:400px;
+  padding-top: 7px;
+}
+.mybutton2{
+	padding:5px;
+	background-color: #89AABF;
+   color:white;
+   font-family: 'Nunito', sans-serif;
+   font-size: 15px;
+   cursor: pointer;
+}
+p{
+	padding-bottom: 10px;
+	font-size: 18px;
+	font-family: 'Castoro', serif;
+}

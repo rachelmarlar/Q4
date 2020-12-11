@@ -1,0 +1,129 @@
+#wrapper{
+  max-width:90%;
+  margin:0 auto;
+}
+@import 
+url('https://fonts.googleapis.com/css2?family=Castoro&family=Nunito:wght@800&display=swap');
+
+#wrapper{
+  max-width: 90%;
+  margin: 0 auto;
+}
+body{
+  background-color:#0D2025;
+}
+a{
+  color:#7DAB9B;
+  text-decoration-line: none;
+  font-family: 'Nunito', sans-serif;
+}
+a:hover{
+  color:#E47855;
+}
+a:visited{
+  color:white;
+}
+.pic1{
+  height:75px;
+}
+.floatc{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+ul{
+  list-style-type: none;
+}
+li{
+  padding:25px;
+}
+nav{
+  padding: 20px;
+}
+.foot{
+  color:#E47855;
+}
+.cdog{
+  text-align:center;
+  font-family: 'Castoro', serif;
+  color:white;
+}
+#grid-container{
+  display:grid;
+  grid-template-rows:125px 1fr 1fr 1fr 1fr 100px;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-areas:
+  "header header header"
+  "aside main main" 
+  "main2 main3 main4" 
+  "main5  main5 main6" 
+  "main7 main8 main9"
+  "footer footer footer";
+  grid-gap:1vw;
+}
+#header{
+  grid-area:header;
+}
+#aside{
+  grid-area:aside;
+}
+#main{
+  grid-area:main;
+}
+#main2{
+  grid-area:main2;
+}
+#main3{
+  grid-area:main3;
+}
+#main4{
+  grid-area:main4;
+}
+#main5{
+  grid-area:main5;
+}
+#main6{
+  grid-area:main6;
+}
+#main7{
+  grid-area:main7;
+}
+#main8{
+  grid-area:main8;
+}
+#main9{
+  grid-area:main9;
+}
+#footer{
+  grid-area:footer;
+  text-align: center;
+}
+h1{
+  font-size:58px;
+  color:#7DAB9B;
+  text-align:center;
+}
+.cool{
+  width:100%;  
+}
+h4{
+  color:white;
+  font-family: 'Nunito', sans-serif;
+}
+.mybutton {
+   background-color: #E47855;
+   color:white;
+   font-family: 'Nunito', sans-serif;
+   font-size: 15px;
+   cursor: pointer;
+   border-radius: 10px;
+   padding:5px;
+}
+.weird{
+  height: 200px;
+  overflow: hidden;
+  width:100%;
+  padding-top: 7px;
+}

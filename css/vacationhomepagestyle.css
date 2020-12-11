@@ -1,0 +1,127 @@
+*{
+	margin:0;
+	padding:0;
+}
+@import 
+url('https://fonts.googleapis.com/css2?family=Castoro&family=Nunito:wght@800&display=swap');
+
+#wrapper{
+	max-width: 90%;
+	margin: 0 auto;
+}
+body{
+	background-color:#0D2025;
+}
+a{
+	color:#7DAB9B;
+	text-decoration-line: none;
+	font-family: 'Nunito', sans-serif;
+}
+a:hover{
+	color:#E47855;
+}
+a:visited{
+	color:white;
+}
+.pic1{
+	height:75px;
+}
+.floatc{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+}
+ul{
+	list-style-type: none;
+}
+li{
+	padding:25px;
+}
+nav{
+	padding: 20px;
+}
+p{
+	font-family: 'Castoro', serif;
+	color:white;
+	text-align: left;
+}
+h1{
+	color:#7DAB9B;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 800;
+	font-size: 55px;
+}
+.backdrop{
+	background: rgba(13, 32, 37, .5);
+	padding:10px;
+}
+h4{
+	color:white;
+	font-family: 'Nunito', sans-serif;
+}
+h3{
+	color:#E47855;
+	font-family: 'Nunito', sans-serif;
+	border-bottom: #E47855 3px solid;
+	font-weight: 800;
+}
+.mybutton {
+   background-color: #E47855;
+   color:white;
+   font-family: 'Nunito', sans-serif;
+   font-size: 15px;
+   cursor: pointer;
+   border-radius: 10px;
+   padding:5px;
+}
+#grid-container{
+  display:grid;
+  grid-template-rows:100vh auto 50px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  "header header header"
+  "main1 main2 main3"
+  "footer footer footer"; 
+  grid-gap:1vw;
+}
+#header{
+	grid-area: header;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+    background: url(../images/background.jpg);
+    border-top: 3px #E47588 solid;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#main1{
+  grid-area:main1;
+  text-align: center;
+}
+#main2{
+  grid-area:main2;
+  text-align: center;
+}
+#main3{
+  grid-area:main3;
+  text-align: center;
+}
+#footer{
+	grid-area:footer;
+	text-align: center;
+}
+.weird{
+	height: 200px;
+ 	overflow: hidden;
+ 	width:100%;
+ 	padding-top: 7px;
+}
+.foot{
+	color:#E47855;
+	font-family: 'Nunito', sans-serif;
+}
+.cdog{
+	font-family: 'Castoro', serif;
+}
